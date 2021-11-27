@@ -61,18 +61,22 @@
             <Condition Enabled="false" Grouping="Or" />
             <Conditions />
           </Action>
+          <Action OrderNumber="11" LogLevel="-1" MouseX="" MouseY="" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="94af7dfd-55d7-4e2e-ba87-ab6f9e3f1dfc" TriggerForce="regexp" ActionType="Trigger">
+            <Condition Enabled="false" Grouping="Or" />
+            <Conditions />
+          </Action>
         </Actions>
         <Condition Enabled="true" Grouping="Or" />
       </Trigger>
-      <Trigger Enabled="true" Name="Unmark" Id="94af7dfd-55d7-4e2e-ba87-ab6f9e3f1dfc" RegularExpression="\[.{14}\d{2}:(?&lt;type&gt;15|[A-Z0-9]{8}):Thunderwing:[A-Z0-9]{4}:Chain Lightning:E0000000:">
+      <Trigger Enabled="true" Name="Unmark" Id="94af7dfd-55d7-4e2e-ba87-ab6f9e3f1dfc" RegularExpression="">
         <Actions>
-          <Action OrderNumber="1" KeypressType="WindowMessage" KeyPressCode="120" KeyPressWindow="FINAL FANTASY XIV" LogLevel="-1" MouseX="" MouseY="" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="KeyPress">
+          <Action OrderNumber="1" KeypressType="WindowMessage" KeyPressCode="120" KeyPressWindow="FINAL FANTASY XIV" LogLevel="-1" MouseX="" MouseY="" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="KeyPress" ExecutionDelayExpression="6000">
             <Condition Enabled="false" Grouping="Or" />
           </Action>
         </Actions>
         <Condition Enabled="false" Grouping="Or" />
       </Trigger>
-      <Trigger Enabled="true" IsReadme="True" Name="ReadMe" Id="6cd23fa9-199b-441d-b1a4-893497adf765" RegularExpression="" Description="the test macro for this is &#xD;&#xA;/e 16:40014E3C:Thunderwing:26C7:Chain Lightning:104ABBB8:Player Name:&#xD;&#xA; replacing &quot;Player Name&quot; with your name&#xD;&#xA;&#xD;&#xA;Please make sure that Default party sort is enabled in FF (Tank, Healer, DPS) and that in triggernometry it is configured under&#xD;&#xA; &quot;Options &gt; Edit Configuration &gt; FInal Fantasy XIV&quot; that player list set to &quot;Custom Order&quot; and is in the proper order as well of Tanks, Healers, DPS. &#xD;&#xA;&#xD;&#xA;This is a lot simpler of Auto Marker then that used in the UwU Gaols auto marker as priority is not needed.  &#xD;&#xA;But the basic set up of hotbar and triggernometry settings is the same.  For a visual guide please reference only the setup section&#xD;&#xA;of my uwu gaols readme at https://github.com/KingPendragoon/FFXIVJobPrioGaolAutoMarker/blob/main/README.md&#xD;&#xA;&#xD;&#xA;You will need F1-F9 set up with keybinds on the hotbar.&#xD;&#xA;&#xD;&#xA;F1: /mk attack &lt;1&gt;&#xD;&#xA;F2: /mk attack &lt;2&gt;&#xD;&#xA;F3: /mk attack &lt;3&gt;&#xD;&#xA;F4: /mk attack &lt;4&gt;&#xD;&#xA;F5; /mk attack &lt;5&gt;&#xD;&#xA;F6: /mk attack &lt;6&gt;&#xD;&#xA;F7: /mk attack &lt;7&gt;&#xD;&#xA;F8: /mk attack &lt;8&gt;&#xD;&#xA;&#xD;&#xA;F9&#xD;&#xA;/mk clear &lt;1&gt;&#xD;&#xA;&#xD;/mk clear &lt;2&gt;&#xD;&#xD;&#xA;/mk clear &lt;3&gt;&#xD;&#xD;&#xA;/mk clear &lt;4&gt;&#xD;&#xD;&#xA;/mk clear &lt;5&gt;&#xD;&#xD;&#xA;/mk clear &lt;6&gt;&#xD;&#xD;&#xA;/mk clear &lt;7&gt;&#xD;&#xA;&#xD;/mk clear &lt;8&gt;&#xD;&#xA;&#xD;&#xA;">
+      <Trigger Enabled="true" IsReadme="True" Name="ReadMeV1.01" Id="6cd23fa9-199b-441d-b1a4-893497adf765" RegularExpression="" Description="the test macro for this is &#xD;&#xA;/e 16:40014E3C:Thunderwing:26C7:Chain Lightning:104ABBB8:Player Name:&#xD;&#xA; replacing &quot;Player Name&quot; with your name&#xD;&#xA;&#xD;&#xA;Please make sure that Default party sort is enabled in FF (Tank, Healer, DPS) and that in triggernometry it is configured under&#xD;&#xA; &quot;Options &gt; Edit Configuration &gt; FInal Fantasy XIV&quot; that player list set to &quot;Custom Order&quot; and is in the proper order as well of Tanks, Healers, DPS. &#xD;&#xA;&#xD;&#xA;This is a lot simpler of Auto Marker then that used in the UwU Gaols auto marker as priority is not needed.  &#xD;&#xA;But the basic set up of hotbar and triggernometry settings is the same.  For a visual guide please reference only the setup section&#xD;&#xA;of my uwu gaols readme at https://github.com/KingPendragoon/FFXIVJobPrioGaolAutoMarker/blob/main/README.md&#xD;&#xA;&#xD;&#xA;You will need F1-F9 set up with keybinds on the hotbar.&#xD;&#xA;&#xD;&#xA;F1: /mk attack &lt;1&gt;&#xD;&#xA;F2: /mk attack &lt;2&gt;&#xD;&#xA;F3: /mk attack &lt;3&gt;&#xD;&#xA;F4: /mk attack &lt;4&gt;&#xD;&#xA;F5; /mk attack &lt;5&gt;&#xD;&#xA;F6: /mk attack &lt;6&gt;&#xD;&#xA;F7: /mk attack &lt;7&gt;&#xD;&#xA;F8: /mk attack &lt;8&gt;&#xD;&#xA;&#xD;&#xA;F9&#xD;&#xA;/mk clear &lt;1&gt;&#xD;&#xA;&#xD;/mk clear &lt;2&gt;&#xD;&#xD;&#xA;/mk clear &lt;3&gt;&#xD;&#xD;&#xA;/mk clear &lt;4&gt;&#xD;&#xD;&#xA;/mk clear &lt;5&gt;&#xD;&#xD;&#xA;/mk clear &lt;6&gt;&#xD;&#xD;&#xA;/mk clear &lt;7&gt;&#xD;&#xA;&#xD;/mk clear &lt;8&gt;&#xD;&#xA;&#xD;&#xA;">
         <Actions />
         <Condition Enabled="false" Grouping="Or" />
       </Trigger>
