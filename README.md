@@ -5,7 +5,6 @@ Applies a marker over some ones head when they receive the Lightning Debuff from
 
 the test macro for this is 
 `/e 26C7|Chain Lightning|104ABBB8|<1>|`
- replacing "Player Name" with your name
 
 Please make sure that Default party sort is enabled in FF (Tank, Healer, DPS) and that in triggernometry it is configured under
  "Options > Edit Configuration > FInal Fantasy XIV" that player list set to "Custom Order" and is in the proper order as well of Tanks, Healers, DPS. 
