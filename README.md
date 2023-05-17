@@ -1,4 +1,4 @@
-V1.02 (needs Testing)
+V1.02
 # NaelLightningAutoMarker
 Applies a marker over some ones head when they receive the Lightning Debuff from Nael in Ucob
 
